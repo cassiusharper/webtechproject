@@ -3,51 +3,70 @@
 <title>Trivia mine</title>
 <link rel="icon" href="favicon.jpg" type="image/png" sizes="16x16">
 <style>
-body  {
-    background-image: url("giphy.webp");
+#page  {
+    background-image: url("giphy.webp.gif");
 	background-repeat: no-repeat;
 	background-size: 100% 200%;
     background-color: #cccccc;
-	font-size: 24pt;
-	color: white;
-	margin-left: 400px;
 }
 #table {
 	position: absolute;
-	background-color: grey;
-	font-size: 18pt; 
+	background-color: white;
+	font-size: 25pt; 
 	text-align: center;
-	margin: 200px;
-	width: 220px;
+	width: 40%;
+	left: 30%;
+	top:50%;
 	border-radius: 15px;
-	color: white;
+	color: black;
 	}
-#joke {
-	position: absolute;
-	background-color: maroon;
-	font-size: 18pt; 
-	color: blue;
+#intro {
+	background-color: white;
+	font-size: 20pt; 
+	color: black;
 	text-align: center;
-	margin-left: 130px;
-	width: 520px;
-	height: 200px;
 	border-radius: 15px;
+	width: 70%;
+	position: absolute;
+	left: 17%;
+	top: 20%;
 }
+
+#welcome 	{
+	text-align:center;
+	color:black;
+	font-size: 45pt;
+	font-weight: bold;
+}
+
+#headDiv	{
+	background-color: white;
+	text-align:center;
+	padding: 10px;
+	border-radius: 15px;
+	width: 55%;
+	position: absolute;
+	left:22%;
+}
+
+
 </style>
 </head>
-<body>
+<body id = 'page'>
 
-	<h1>Welcome to Trivia Mine</h1>
-		<div id="joke">
-			<p>Welcome to Trivia Mine, the best random trivia game website on the internet. If you are a returning user then just login to get started. New to our site??? Well just click the "Create account" button and join in on the fun.</p>
+		<div id = 'headDiv'>
+			<header id = 'welcome'>Welcome to Trivia Mine!</header>
+		</div>
+		<div id="intro">
+			<p>Welcome to Trivia Mine! We are the best random trivia game ever! If you are a returning user, just login to get started! New to our site? Just click the "Create account" button and join in on the fun!</p>
 		</div><br><br><br>
 	<div id= "table">
 		<form action='' method='POST'>
-			Please enter your Username and Password<br>
+			Login or Create Account<br>
 			Username:<br>
 	  		<input type="text" name="username"><br>
 	  		Password:<br>
-	  		<input type="text" name="password"><br>
+	  		<input type="text" name="password"><br><br>
   			<input type="submit" value="Login">
  		</form>
 
@@ -56,6 +75,3 @@ body  {
 </body>
 
 </html>
-
-<!--hello-->
-
