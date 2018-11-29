@@ -1,7 +1,6 @@
 <html>
 <head>
 <title>Trivia mine</title>
-<link rel="icon" href="favicon.jpg" type="image/png" sizes="16x16">
 <style>
 #page  {
     background-image: url("giphy.webp.gif");
@@ -49,6 +48,15 @@
 	left:22%;
 }
 
+#loginButton	{
+	background-color: black;
+	color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+}
 
 </style>
 </head>
@@ -62,12 +70,12 @@
 		</div><br><br><br>
 	<div id= "table">
 		<form action='' method='POST'>
-			Login or Create Account<br>
+			Login or <a href = 'file:///C:/Users/imgrz/Desktop/web%20tech/createaccount.html'>Create Account</a><br>
 			Username:<br>
 	  		<input type="text" name="username"><br>
 	  		Password:<br>
 	  		<input type="text" name="password"><br><br>
-  			<input type="submit" value="Login">
+  			<input type="submit" value="Login" id = 'loginButton'>
  		</form>
 
 	</div>
