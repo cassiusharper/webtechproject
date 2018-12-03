@@ -1,6 +1,6 @@
 <html>
 
-<head><title>Cars</title></head>
+<head><title>Trivia mine</title></head>
 <style>
 a {
 	text-decoration:none; 
@@ -15,7 +15,7 @@ a:hover {
 </style>
 <body>
 
-<h1>Welcome to my Car Rental Service</h1>
+<h1>Welcome to Trivia Mine</h1>
 
 <a href="form1.php">Home</a>
 <a href="https://www.google.com/maps/place/Chicago+Metropolitan+Area/@41.6978453,-89.0568835,8z/data=!3m1!4b1!4m5!3m4!1s0x880e444c8c99e083:0xda7b840a9a579334!8m2!3d41.7435073!4d-88.0118473">Map of the Chicagoland Area</a>
